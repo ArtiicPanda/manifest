@@ -19,4 +19,5 @@
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
+  <project path="motorola/denver" name="kernel-msm" remote="github" revision="motorola/MMI-RRES31.Q2-11-66-3" />
 </manifest>
