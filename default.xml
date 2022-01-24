@@ -2,9 +2,6 @@
 <manifest>
   <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
 
-#  <remote  name="github"
-#           fetch="https://github.com/ArtiicPanda" />
-
   <default revision="master-kernel-build-2021" remote="aosp" sync-j="4" />
 
   <superproject name="kernel/superproject" remote="aosp"/>
