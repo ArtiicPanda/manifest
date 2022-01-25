@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="aosp" fetch="https://android-review.googlesource.com/" revision="master-kernel-build-2021" />
-  <remote name="github" fetch="https://github.com/ArtiicPanda/" revision="oneplus-sm4350_R_11.0" />
+  <default revision="master-kernel-build-2021" remote="aosp" sync-j="4" />
   <project path="build" name="kernel/build" remote="aosp" />
   <project path="kernel/tests" name="kernel/tests" remote="aosp" />
   <project path="kernel/configs" name="kernel/configs" remote="aosp" />
@@ -12,5 +12,4 @@
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" remote="aosp" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" remote="aosp" />
-  <project path="common" name="oneplus-sm4350" remote="github" />
 </manifest>
